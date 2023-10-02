@@ -66,9 +66,9 @@ const App = () => {
 						dataBase={users}
 					/>
 				<Footer 
-						facebook="facebook.com"
-						twitter="twitter.com"
-						instagram="instagram.com"
+						facebook="https://facebook.com"
+						twitter="https://twitter.com"
+						instagram="https://instagram.com"
 					/>
 				</div>
   );
