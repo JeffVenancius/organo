@@ -1,9 +1,12 @@
 import { useState } from "react";
+
+import { IUser } from "shared/interfaces/iuser";
+import { ITeam } from "shared/interfaces/iteam";
+
 import TextField from "./text_field";
 import SuspensedList from "./suspensed_list";
 import Button from "./button";
-import { IUser } from "../../shared/interfaces/iuser";
-import { ITeam } from "../../shared/interfaces/iteam";
+
 import "./form.css";
 
 interface FormProps {

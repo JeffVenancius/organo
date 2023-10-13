@@ -1,7 +1,8 @@
-import Card from "./card";
-import "./team.css";
+import { IUser } from "shared/interfaces/iuser";
 
-import { IUser } from "../../../shared/interfaces/iuser";
+import Card from "./card";
+
+import "./team.css";
 
 interface TeamProps {
   name: string;

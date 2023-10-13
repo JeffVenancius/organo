@@ -1,7 +1,7 @@
-import Team from "./team";
+import { ITeam } from "shared/interfaces/iteam";
+import { IUser } from "shared/interfaces/iuser";
 
-import { ITeam } from "../../shared/interfaces/iteam";
-import { IUser } from "../../shared/interfaces/iuser";
+import Team from "./team";
 
 interface TeamsProps {
   dataBase: IUser[];

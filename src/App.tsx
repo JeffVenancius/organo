@@ -4,8 +4,8 @@ import Form from "./components/form";
 import Teams from "./components/teams";
 import Footer from "./components/footer";
 
-import { ITeam } from "./shared/interfaces/iteam";
-import { IUser } from "./shared/interfaces/iuser";
+import { ITeam } from "shared/interfaces/iteam";
+import { IUser } from "shared/interfaces/iuser";
 
 const App = () => {
   const teams: ITeam[] = [
